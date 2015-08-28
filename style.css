@@ -1,0 +1,86 @@
+/*
+Topics : Simple Slider
+Author: Lincoln Mahmud;
+Author URL: https://www.github.com/lincolndu
+Company: CodersTime; 
+Company URL: https://coderstime.com;
+*/
+
+#slider{
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin: 50px auto;
+	border-radius: 20px;
+}
+#slider .slides{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 20000px;
+	height: 100%;
+}
+#slider .slide{
+	float: left;
+	width: 800px;
+	height: 400px;
+	list-style: none;
+}
+#slider .slide img{
+	width: 100%;
+	height: 100%;
+}
+#slider .slide .info{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	bottom: 90px;
+	margin: 0;
+	padding: 8px 0;
+	background: #eee;
+	opacity: 0.6;
+	text-align: center;
+}
+#slider .slide .info a{}
+#slider .slide .info a:hover{
+	text-decoration: none;
+}
+#slider .slide .info h3{
+	font-size: 18px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+#slider .slide .info p{
+	text-align: left;
+	padding: 5px 15px; 
+}
+#slider .slide .info .read_more{
+		font-size: 16px;
+		color: #cd0000;
+}
+#slider .indicator .previous, .indicator .next{
+		width: 30px;
+		height: 30px;
+		background:url("img/direction_nav.png") no-repeat scroll 0px 0px;
+		opacity: 1;
+		cursor: pointer;
+}
+#slider .indicator {
+		margin: -20px 10px 0px;
+		height: 30px;
+		width: 97%;
+		top: 50%;
+		position: relative;
+}
+.indicator .previous{
+	left: 0px;
+	float: left;
+	display: block;
+}
+.indicator .next{
+	right: 0px;
+	float: right;
+	display: block;
+}
